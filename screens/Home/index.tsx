@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from "react-nativ
 import { styles } from "./styles";
 import LogoSvg from "../../assets/logo.svg";
 import ButtonSvg from "../../assets/button.svg"
+import ClipboardSvg from "../../assets/clipBoard.svg"
 
 export function Home() {
     return (
@@ -30,8 +31,13 @@ export function Home() {
                     <View style={styles.contagem}></View>
                     </View>
                 </View>
-            </View>
-            <View style={styles.border}></View>
+                <View style={styles.infoContent}>
+                    <ClipboardSvg />
+                    <Text style={styles.titleBold}>Você ainda não tem tarefas cadastradas</Text>
+                    <Text style={styles.titleInfo}>Crie tarefas e organize seus itens a fazer</Text>
+             </View>
+                </View>
+               
         </View>
     );
 }

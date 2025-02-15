@@ -61,10 +61,12 @@ export const styles = StyleSheet.create({
     info: { 
         flexDirection: "row",
         justifyContent: "space-around",
-        width: "100%",
+        width: 327,
         marginTop: 20,
-        paddingBottom: 6,
-        gap: 60
+        paddingBottom: 20,
+        gap: 60,
+        borderBottomColor: "#262626",
+        borderBottomWidth: 1,
     },
     title: {
         color: "#8284FA",
@@ -83,12 +85,30 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         gap: 8
     },
-    border: {
-        flex: 1,
-        height: 1,
-        width: 327,
-        backgroundColor: "#0D0D0D",
+    infoContent: {
+        justifyContent: "center",
         alignItems: "center",
+        width: 327,
+        height: 208,
+
+    },
+    titleBold: {
+        color: "#808080",
+        fontWeight: "700",
+        fontSize: 14,
+        textAlign: "center",
+        lineHeight: 19.6,
+        marginTop: 10
+    },
+    titleInfo: {
+        color: "#808080",
+        fontWeight: "400",
+        fontSize: 14,
+        textAlign: "center",
+        lineHeight: 19.6
+
+
+
     }
     
 });
