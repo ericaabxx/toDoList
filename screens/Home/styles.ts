@@ -77,7 +77,9 @@ export const styles = StyleSheet.create({
         width: 25,
         height: 19,
         borderRadius: 999,
-        backgroundColor: "#333333"
+        backgroundColor: "#333333",
+        alignItems: "center",
+        justifyContent: "center"
 
 
     },
@@ -85,30 +87,13 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         gap: 8
     },
-    infoContent: {
-        justifyContent: "center",
-        alignItems: "center",
-        width: 327,
-        height: 208,
-
+   
+    counter: {
+        width: 9,
+        height: 15,
+        fontSize: 12,
+        color: "#D9D9D9"
+    
     },
-    titleBold: {
-        color: "#808080",
-        fontWeight: "700",
-        fontSize: 14,
-        textAlign: "center",
-        lineHeight: 19.6,
-        marginTop: 10
-    },
-    titleInfo: {
-        color: "#808080",
-        fontWeight: "400",
-        fontSize: 14,
-        textAlign: "center",
-        lineHeight: 19.6
-
-
-
-    }
     
 });
