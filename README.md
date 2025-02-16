@@ -1,6 +1,6 @@
 # Gerenciador de Tarefas - Projeto React Native com TypeScript
 
-<img scr="C:\Users\conta\Desktop\ignite\toDo\assets\Cover.png">
+![Texto alternativo](assets/Cover.png)
 
 Este é um projeto de **gestão de tarefas** desenvolvido com **React Native**. O objetivo do aplicativo é permitir que os usuários criem, concluam e excluam tarefas de maneira simples e interativa. O projeto foi desenvolvido como parte do curso da **Rocketseat**.
 
